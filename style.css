@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.card{
+    margin: 0 auto;
+    background-color: green;
+    width: min(350px, 80%);
+    padding: 20px;
+}
+.top{
+    display: flex;
+    justify-content: center;
+}
+.card .top button{
+    box-shadow: 0 0 2px black;
+}
+.card .top input, .card .top button{
+    padding: 10px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+.card div ul{
+    height: 300px;
+    overflow-y: scroll;
+    margin-top: 10px;
+}
+.card div ul li{
+    background-color: lightgreen;
+    margin: 10px;
+    list-style-type: none;
+    padding: 10px ;
+}
+
